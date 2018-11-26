@@ -1,0 +1,28 @@
+{
+  "name": "rangify",
+  "version": "1.0.0",
+  "description": "Create an array from a string of integer ranges.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "integer",
+    "int",
+    "array",
+    "range"
+  ],
+  "author": {
+    "name": "Austin Gordon",
+    "email": "agordon@hutsoninc.com",
+    "url": "https://github.com/AustinLeeGordon"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hutsoninc/validate-range"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
