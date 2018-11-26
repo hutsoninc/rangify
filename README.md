@@ -1,6 +1,12 @@
 # rangify-string
 
+[![Build Status](https://travis-ci.com/hutsoninc/rangify-string.svg?branch=master)](https://travis-ci.com/hutsoninc/rangify-string) [![Current npm package version](https://img.shields.io/npm/v/rangify-string.svg)](https://www.npmjs.com/package/rangify-string) 
+
 Create an array from a string of integer ranges.
+
+## Installation
+
+`npm install --save rangify-string`
 
 ## Usage
 
@@ -26,7 +32,6 @@ Property | Description | Default
 --- | --- | ---
 sort | Sort the output array | `true`
 filter | Filter duplicates from output array | `true`
-
 
 ## Authors
 
