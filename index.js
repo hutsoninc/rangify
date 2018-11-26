@@ -32,11 +32,20 @@ module.exports = (input, opts) => {
             throw new Error(`Invalid range format: ${str}`);
         }
 
-        // Check if first number is less than the second number
         let arr = str.split('-');
 
-        if (Number(arr[0]) >= Number(arr[1])) {
+        // Check if first number is less than the second number
+        if (arr.length === 2 && Number(arr[0]) >= Number(arr[1])) {
             throw new Error(`First number in range should be smaller than the second: ${str}`);
+        }
+
+        // Check if is safe integer
+        if (!Number.isSafeInteger(Number(arr[0]))) {
+            throw new Error(`Value is not a safe integer: ${arr[0]}`);
+        }
+
+        if (arr.length === 2 && !Number.isSafeInteger(Number(arr[1]))) {
+            throw new Error(`Value is not a safe integer: ${arr[1]}`);
         }
 
         // Push to output array

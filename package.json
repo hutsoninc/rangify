@@ -1,5 +1,5 @@
 {
-  "name": "rangify",
+  "name": "rangify-string",
   "version": "1.0.0",
   "description": "Create an array from a string of integer ranges.",
   "main": "index.js",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hutsoninc/validate-range"
+    "url": "https://github.com/hutsoninc/rangify-string"
   },
   "devDependencies": {
     "jest": "^23.6.0"

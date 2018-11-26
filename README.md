@@ -1,11 +1,11 @@
-# rangify
+# rangify-string
 
 Create an array from a string of integer ranges.
 
 ## Usage
 
 ```js
-const rangify = require('rangify');
+const rangify = require('rangify-string');
 
 rangify('1-3,5,9-10');
 //=> [1, 2, 3, 5, 9, 10]
