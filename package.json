@@ -1,6 +1,6 @@
 {
   "name": "rangify-string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create an array from a string of integer ranges.",
   "main": "index.js",
   "scripts": {
